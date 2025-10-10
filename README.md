@@ -1,11 +1,6 @@
-# ForensVision
+# ForensVision 🛡️
 
-ForensVision is a multi-part project for violence and weapon detection in video. It contains a Python backend (FastAPI/Flask style) and a Next.js frontend.
-
-Structure
-- backend/: Python API, models, and utilities
-- frontend/: Next.js frontend app
-- models/: stored ML models used by the backend
+ForensVision is a forensic video analysis tool that detects violence and weapons in video. It combines a Python backend that runs ML models (violence/weapon detectors) with a Next.js frontend for uploading videos and viewing analysis results.
 
 Quick start
 
@@ -32,6 +27,3 @@ cd frontend
 npm install
 npm run dev
 ```
-
-Notes
-- This repository contains model files (.pt, .h5) and some sample data. Large files are ignored by `.gitignore` if placed under `data/`.
