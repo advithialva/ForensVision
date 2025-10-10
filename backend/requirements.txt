@@ -1,0 +1,41 @@
+# Core FastAPI and web server
+fastapi>=0.104.1
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+
+# Machine Learning and Computer Vision
+tensorflow>=2.16.1
+opencv-python>=4.8.1.78
+ultralytics>=8.0.230
+numpy>=1.24.3,<2.0.0
+scipy>=1.11.4
+
+# Hugging Face Transformers (optional for enhanced features)
+transformers>=4.35.2
+torch>=2.1.1
+torchvision>=0.16.1
+Pillow>=10.1.0
+
+# Data handling and utilities
+pandas>=2.1.3
+matplotlib>=3.8.2
+seaborn>=0.13.0
+tqdm>=4.66.1
+
+# API and networking
+requests>=2.31.0
+aiofiles>=23.2.0
+
+# Logging and monitoring
+python-json-logger>=2.0.7
+
+# Development and testing (optional)
+pytest>=7.4.3
+pytest-asyncio>=0.21.1
+httpx>=0.25.2
+
+# Environment management
+python-dotenv>=1.0.0
+
+# Math and scientific computing
+scikit-learn>=1.3.2
