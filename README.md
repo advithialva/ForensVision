@@ -1,11 +1,67 @@
-# ForensVision 🛡️
+# ForensVision - AI-powered Forensic Video Analysis Tool
+[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)  [![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-green.svg)](https://fastapi.tiangolo.com/)  [![Next.js](https://img.shields.io/badge/Next.js-14.0+-black.svg)](https://nextjs.org/)  [![YOLOv8](https://img.shields.io/badge/YOLOv8-Ultralytics-orange.svg)](https://github.com/ultralytics/ultralytics)  
 
-ForensVision is a forensic video analysis tool that detects violence and weapons in video. It combines a Python backend that runs ML models (violence/weapon detectors) with a Next.js frontend for uploading videos and viewing analysis results.
 
-It's designed to assist law enforcement agencies, security professionals, and forensic investigators.
+<img width="1340" height="290" alt="Image" src="https://github.com/user-attachments/assets/4ac4ea14-d752-42a4-9ef0-e814fdd7c708" />
+
+ForensVision is an intelligent video analytics platform that aids forensic investigations by automatically detecting violent activities and weapons in uploaded surveillance footage. It features a Python FastAPI backend for efficient model inference and a modern Next.js frontend for seamless video uploads and intuitive visualization of analysis results.
+
+It is designed to assist law enforcement agencies, security professionals, and forensic investigators.
+
 
 ---
-## 🚀 Quick Start
+## ✨ Key Features
+
+- 🎥 Automated analysis of uploaded surveillance videos for violence and weapon detection
+- 🔫 Custom-trained YOLOv8 model for identifying weapons with high precision
+- 🧠 Hybrid MoBiLSTM (MobileNet + BiLSTM) architecture for violence recognition
+- ⚡ Fast inference powered by a Python FastAPI backend
+- 🌐 Responsive Next.js frontend for video upload and result visualization
+
+---
+## 💻 Tech Stack
+
+| **Category**           | **Technologies Used**                                     |
+| ---------------------- | --------------------------------------------------------- |
+| **Backend**            | FastAPI · Uvicorn · Python                                |
+| **AI / ML**            | TensorFlow · Keras · PyTorch · YOLOv8                     |
+| **Computer Vision**    | OpenCV                                                    |
+| **Data Preprocessing** | NumPy · Pandas · Scikit-learn                             |
+| **Frontend**           | Next.js · React · TypeScript                              |
+| **Styling / UI**       | Tailwind CSS · Framer Motion                              |
+| **Tools**              | Git/GitHub · Jupyter Notebook                             |
+| **Models**             | MoBiLSTM (Violence Detection) · YOLOv8 (Weapon Detection) |
+
+---
+
+## 📁 Project Structure
+
+```
+ForensVision
+├─ backend
+│  ├─ main.py                 # Entry point for the backend server
+│  ├─ config.py               # Configuration
+│  ├─ models/                 # ML model scripts
+│  ├─ utils/                  # Helper functions
+│  ├─ requirements.txt
+│  └─ yolov8n.pt
+├─ frontend
+│  ├─ src/
+│  │  ├─ app/                 # Main app layout and styling files
+│  │  ├─ components/          # Reusable UI components
+│  │  └─ services/            # API service layer for backend communication
+│  ├─ package.json
+│  ├─ tailwind.config.ts
+│  └─ tsconfig.json
+├─ models                     # Trained deep learning models
+│  ├─ violence_detection/
+│  └─ weapon_detection/
+└─ README.md                  # Project documentation
+```
+
+---
+
+## 🚀 Installation
 
 ### 🖥️ Backend Setup
 
