@@ -1,5 +1,5 @@
-# ForensVision - AI-powered Forensic Video Analysis Tool
-[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)  [![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-green.svg)](https://fastapi.tiangolo.com/)  [![Next.js](https://img.shields.io/badge/Next.js-14.0+-black.svg)](https://nextjs.org/)  [![YOLOv8](https://img.shields.io/badge/YOLOv8-Ultralytics-orange.svg)](https://github.com/ultralytics/ultralytics)  
+# ForensVision: AI-powered Forensic Video Analysis Tool
+[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)  [![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-green.svg)](https://fastapi.tiangolo.com/)  [![Next.js](https://img.shields.io/badge/Next.js-14.0+-black.svg)](https://nextjs.org/)  [![YOLOv8](https://img.shields.io/badge/YOLOv8-Ultralytics-orange.svg)](https://github.com/ultralytics/ultralytics)  [![MoBiLSTM](https://img.shields.io/badge/MoBiLSTM-Violence_Detection-purple.svg)]()
 
 
 <img width="1340" height="290" alt="Image" src="https://github.com/user-attachments/assets/4ac4ea14-d752-42a4-9ef0-e814fdd7c708" />
